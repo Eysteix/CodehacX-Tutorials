@@ -37,18 +37,21 @@ ul{
     gap:20px;
 }
 
-.logo a{
+.logo a , .logo a span{
     font-size: 2rem;
     font-weight: 600;
 }
 
-/* nav ul li a{
-    font-size: 1.2rem;
-    font-weight: 500;
+.logo a span{
+    color: rgb(63, 108, 255);
+}
+
+nav ul li a{
+    font-weight: 400;
     padding: 10px 20px;
     border-radius: 5px;
     transition: all 0.3s ease-in-out;
-} */
+}
 
 
 input[type="search"]{
