@@ -5,26 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MoviFlix</title>
     <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./fontawesome-free-6.7.2-web/css/" />
   </head>
   <body>
     <header>
-      <div class="logo"><a href="/">Movi<span>Flix</span></a></div>
+      <div class="logo">
+        <i class="fa-classic fa-solid fa-clapperboard"></i
+        ><a href="/">Movi<span>Flix</span></a>
+      </div>
       <nav>
         <ul>
+          <i class="fa-classic fa-solid fa-user fa-"></i>
           <li><a href="/pages/movie.html">Movies</a></li>
           <li><a href="/pages/series.html">Series</a></li>
           <li><a href="/pages/anime.html">Anime</a></li>
           <li><a href="/pages/k-drama.html">K-Drama</a></li>
         </ul>
       </nav>
-      <form action="#" method="get">
-        <input
-          type="search"
-          placeholder="Search here ..."
-          aria-label="Search"
-          name="search"
-        />
-      </form>
+
+
+      <input type="search" placeholder="Search here ..." aria-label="Search"
+      name="search" onkeyup="search(value)" />
     </header>
+    <main>
+    <div class="movie-boxes">
+
+    </div>
+    </main>
+
+    <script src="./js/main.js"></script>
+
   </body>
 </html>
