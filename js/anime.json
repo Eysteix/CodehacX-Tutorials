@@ -1,4 +1,5 @@
-[
+
+  {"animes":[
     {
         "name": "Naruto",
         "genre": ["Action", "Adventure"],
@@ -170,3 +171,4 @@
         "picture": "fullmetal_alchemist_brotherhood2.jpg"
     }
 ]
+  }
