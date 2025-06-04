@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "./js/main.js",
-   
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/Eysteix/CodehacX-Tutorials/issues"
   },
-  "homepage": "https://github.com/Eysteix/CodehacX-Tutorials#readme"
+  "homepage": "https://github.com/Eysteix/CodehacX-Tutorials#readme",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
 }
